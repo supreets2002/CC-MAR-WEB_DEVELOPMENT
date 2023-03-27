@@ -1,0 +1,88 @@
+body {
+  background-color: azure;
+  position: absolute;
+  top: 10vh;
+  left: 40vw;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  line-height: 59px;
+  margin: 0;
+  padding: 0px 0px
+}
+
+.stopwatch {
+  left: 150px;
+  display: grid;
+  grid-row-gap: 30px;
+  width: 100%;
+  padding-top: 25px;
+
+}
+
+.head {
+  ruby-overhang: 250px;
+  display: grid;
+  grid-row-gap: 23px;
+  width: 120%;
+  padding-top: 25px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 270px;
+  width: 270px;
+
+  border: 2px solid;
+  border-radius: 100%;
+
+}
+
+.time {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+
+  width: 270px;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  border: none;
+  margin: 0;
+  outline: none;
+}
+
+#playButton {
+  display: block;
+}
+
+#pauseButton {
+  display: none;
+}
+
+.countdown1 {
+  margin: -450px 30px;
+  padding: 2px;
+  display: inline-block;
+  position: absolute;
+  left: 1095px;
+
+}
+
+.b{
+  filter: invert(1);
+}
